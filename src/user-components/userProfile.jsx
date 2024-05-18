@@ -2,10 +2,11 @@ export function UserProfile() {
   return (
     <main id="User-Profile">
       <p>UserName: Dhave</p>
-      <p>Email: kaludavidinyang@gmail.com</p>
+      <p>Email: johndeo@gmail.com</p>
       <p>Phone: 08100002222</p>
 
       <div>
+        <p>USer Fav Food</p>
         <ul>
           <li>Rice</li>
 
