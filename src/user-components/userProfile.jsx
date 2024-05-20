@@ -2,13 +2,23 @@ import { UserFavFood } from "./userFavFood";
 import { UserName } from "./userName";
 import { UserFooter } from "./userFooter";
 
-export function UserProfile() {
+export function UserProfile(props) {
+  console.log(props);
+
+  props.userCall();
   return (
     <main id="User-Profile">
+      {/*props */}
       <UserName theusername="that_guy_Dhave" />
+      <br />
+      <div>
+        <b>Age: </b>
+        <span>{props.userage}</span>
+      </div>
       <p>
         <b>Email:</b> johndeo@gmail.com
       </p>
+
       <p>
         <b>Phone:</b> 08100002222
       </p>
