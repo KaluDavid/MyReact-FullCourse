@@ -13,10 +13,13 @@ export default function App() {
       <UserProfile
         // props drilling, but this ain't suppose to be here
         theusername="That_guy_Dhave"
+
         // passing numeric values
         userage={20}
+
         // PAssing Booleans
         userageis={true}
+        
         // PAssing Arrays
         userfavfoods={[
           {
