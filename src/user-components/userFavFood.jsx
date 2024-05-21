@@ -1,4 +1,4 @@
-export function UserFavFood() {
+export function UserFavFood(props) {
   return (
     <div>
       <p>User-Fav-Food</p>
@@ -8,6 +8,8 @@ export function UserFavFood() {
         <li>Beans</li>
 
         <li>Stew</li>
+
+        <li>{props.otherFoods}</li>
       </ul>
     </div>
   );
