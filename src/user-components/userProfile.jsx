@@ -17,7 +17,7 @@ export function UserProfile(props) {
       {/* props Drilling */}
       <UserName theusername={props.theusername} />
       <br />
-
+ 
       <div>
         <b>Age: </b>
         <span>{props.userage}</span>
@@ -31,7 +31,12 @@ export function UserProfile(props) {
         <b>Phone:</b> 08100002222
       </p>
 
-      <UserFavFood otherFoods="Bread" />
+      <UserFavFood
+      
+      otherFoods={props.otherFoods} 
+      
+      moreFood="biscuit"
+      />
 
       <UserFooter />
     </main>
@@ -54,6 +59,6 @@ UserProfile.propTypes = {
       id: PropTypes.string.isRequired,
     })
   ),
+
+  otherFoods: PropTypes.string.isRequired,
 };
-
-

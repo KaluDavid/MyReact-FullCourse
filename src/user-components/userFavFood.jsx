@@ -1,3 +1,4 @@
+
 export function UserFavFood(props) {
   return (
     <div>
@@ -10,6 +11,8 @@ export function UserFavFood(props) {
         <li>Stew</li>
 
         <li>{props.otherFoods}</li>
+
+        <li>{props.moreFood}</li>
       </ul>
     </div>
   );

@@ -1,10 +1,12 @@
+import React from "react";
+
 export function UserName(props) {
   // console.log(props.theusername);
   return (
-    <div>
+    <React.Fragment>
       <b>UserName: </b>
      {/* evaluating props  */}
       <span>{props.theusername}</span>
-    </div>
+    </React.Fragment>
   );
 }
