@@ -13,6 +13,8 @@ export function UserFavFood(props) {
         <li>{props.otherFoods}</li>
 
         <li>{props.moreFood}</li>
+
+        <li>{props.yorubaFood}</li>
       </ul>
     </div>
   );

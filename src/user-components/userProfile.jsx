@@ -35,8 +35,11 @@ export function UserProfile(props) {
       
       otherFoods={props.otherFoods} 
       
-      moreFood="biscuit"
+      moreFood="Biscuit"
+
+      yorubaFood="Pepper"
       />
+
 
       <UserFooter />
     </main>
