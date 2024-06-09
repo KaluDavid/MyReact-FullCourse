@@ -30,7 +30,7 @@ export default function App() {
         ]}
         userCall={userCall}
         // Prop Drilling
-        otherFoods="Banana"
+        otherFoods="Plantain"
       />
     </div>
   );
